@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div id="Header">
-		<img src="../images/GamerHQ_header.png" />
+		<h1>HEADER DIV</h1>
 		<div id="SearchBar">
 			<p>SEARCHBAR DIV</p>
 		</div>
@@ -39,9 +39,6 @@
 			</ul>
 		</div>
 		<h1>Top Xbox One Games</h1>
-		<span id="Add">
-			<a href="./addgame.php">Add Game</a>
-		</span>
 	</div>
 	<div id="Footer">
 		<p>Designed by Matthew Czech, Zackary Flake, and Matthew Paule</p>
