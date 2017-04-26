@@ -37,7 +37,7 @@
 			   We have a few rules here at the Gamer HQ forum page <br/>
 			   			 	- Family and doggo friendly, so no swearsies	<br/>
 			   				- No harassing	<br/>
-			   				- "Be Excellent to Each Other" Bill and Ted<br/>
+			   				- "Be Excellent to Each Other" <em> -Bill and Ted</em><br/>
 			</p>
 		</div>
 		
