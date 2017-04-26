@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div id="Header">
-		<img src="../images/GamerHQ_header.png" />
+		<h1>HEADER DIV</h1>
 		<div id="SearchBar">
 			<p>SEARCHBAR DIV</p>
 		</div>
