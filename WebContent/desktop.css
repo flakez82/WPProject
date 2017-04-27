@@ -331,4 +331,9 @@ body	{
  	color: #6d0000;
  	font-style: italic;
 }
+
+#InnerContent{
+	padding-left: 50px;
+	float: left;
+}
 }

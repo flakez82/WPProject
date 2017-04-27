@@ -33,7 +33,7 @@
 
 	function gallery(){
 		var p = document.createElement("p");
-		var text = document.createTextNode("DUUUUDE");
+		var text = document.createTextNode("AAAHHHH");
 		p.appendChild(text);
 
 		document.getElementById("InnerContent").innerHTML = "";
@@ -42,7 +42,7 @@
 
 	function discuss(){
 		var p = document.createElement("p");
-		var text = document.createTextNode("DUUUUDE");
+		var text = document.createTextNode("GUHHHH");
 		p.appendChild(text);
 
 		document.getElementById("InnerContent").innerHTML = "";
