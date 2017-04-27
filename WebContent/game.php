@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Web Programming Game Forum - Home</title>
+<?php
+	$title = "No Title Given";
+	//$title =
+	echo "<title>Web Programming Game Forum - " . $title . "</title>";
+?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="Author"
 	content="Matthew Czech, Zackary Flake, Matthew Paule">
 <link rel="stylesheet" href="desktop.css" />
 <link rel="icon" href="../images/hqicon.ico" />
+<script type="text/javascript">
+	function walkthrough(){
+		var p = document.createElement("p");
+		var text = document.createTextNode("WOAH");
+		p.appendChild(text);
+
+		document.getElementById("InnerContent").innerHTML = "";
+		document.getElementById("InnerContent").appendChild(p);
+	}
+
+	function reviews(){
+		var p = document.createElement("p");
+		var text = document.createTextNode("DUUUUDE");
+		p.appendChild(text);
+
+		document.getElementById("InnerContent").innerHTML = "";
+		document.getElementById("InnerContent").appendChild(p);
+	}
+
+	function gallery(){
+		var p = document.createElement("p");
+		var text = document.createTextNode("AAAHHHH");
+		p.appendChild(text);
+
+		document.getElementById("InnerContent").innerHTML = "";
+		document.getElementById("InnerContent").appendChild(p);
+	}
+
+	function discuss(){
+		var p = document.createElement("p");
+		var text = document.createTextNode("GUHHHH");
+		p.appendChild(text);
+
+		document.getElementById("InnerContent").innerHTML = "";
+		document.getElementById("InnerContent").appendChild(p);
+	}
+</script>
 </head>
-<body>
+<body onload="walkthrough()">
 	<div id="Header">
 		<a href="./index.php">
 			<img src="../images/GamerHQ_header.png">
@@ -44,23 +85,20 @@
 			<li><strong>Systems:</strong><br/> </li>
 			<li><strong>Released (NA):</strong><br/> </li>
 			<li><strong>Rating:</strong><br/> </li>
+			<li class="edit">EDIT</li>
 			</ul>
 		</div>
 		<?php
-			$title = "No Title Given";
-			//$title =
 			echo "<h1>" . $title . "</h1>";
 		?>
 			<ul id="GameTabs">
-				<li><a href="">Walkthroughs/FAQs</a></li>
-				<li><a href="">Reviews</a></li>
-				<li><a href="">News</a></li>
-				<li><a href="">Discuss</a></li>
+				<li><a onclick="walkthrough()">Walkthroughs/FAQs</a></li>
+				<li><a onclick="reviews()">Reviews</a></li>
+				<li><a onclick="gallery()">Gallery</a></li>
+				<li><a onclick="discuss()">Discuss</a></li>
 			</ul>
-		<div id="Gallery">
-		</div>
-		<div id="Description">
-		</div>
+			<div id="InnerContent">
+			</div>
 	</div>
 	<div id="Footer">
 		<p>Designed by Matthew Czech, Zackary Flake, and Matthew Paule</p>
