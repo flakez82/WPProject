@@ -34,6 +34,9 @@
 		<?php 
 			$title = $_GET['game'];
 			echo "<h1>Search Results for: " . $title . "</h1>";
+			include DBfuncs.php;
+			include Connect.php;
+			ListMatchingGames(ConnectDB(), $title);
 		?>
 	</div>
 	<div id="Footer">
