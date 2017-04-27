@@ -43,7 +43,7 @@
 			  <option value="3ds">Nintendo 3DS</option>
 			</select></p>
 		</form>
-		<div id="Enter">Enter</div>
+		<div id="Enter"><a href="./game.php">Enter</a></div>
 	</div>
 	<div id="Footer">
 		<p>Designed by Matthew Czech, Zackary Flake, and Matthew Paule</p>
