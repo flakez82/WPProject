@@ -12,13 +12,10 @@
 	<div id="Header">
 		<img src="../images/GamerHQ_header.png" />
 		<div id="SearchBar">
-                    <p>
-                         <form action="C:/xampp/htdocs/WP/searchPage.php" method="POST">
-                            Game: <input type="text" name="game"><br>
-                            
+                         <form action="./WP_searchPage.php" method="POST">
+                            <input type="text" name="game" value="Game"><br>
                             <input type="submit">
                           </form> 
-                    </p>
 		</div>
 		<div id="MenuTabs">
 			<ul id="HeaderTabs">
@@ -34,9 +31,9 @@
 		</div>
 	</div>
 	<div id="Content">
-		<div id="Sidebar">
-
-		</div>
+		<h1>Search Results for: </h1>
+		<?php 
+		?>
 	</div>
 	<div id="Footer">
 		<p>Designed by Matthew Czech, Zackary Flake, and Matthew Paule</p>
