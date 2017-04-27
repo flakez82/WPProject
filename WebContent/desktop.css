@@ -323,4 +323,12 @@ body	{
 	text-decoration: none;
 	color: white;
 }
+
+.edit{
+	font-size: 30px;
+ 	font-family: "Arial", sans-serif;
+ 	text-decoration: none;
+ 	color: #6d0000;
+ 	font-style: italic;
+}
 }
