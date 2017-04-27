@@ -15,7 +15,10 @@
 			<img src="../images/GamerHQ_header.png">
 		</a>
 		<div id="SearchBar">
-			<p>SEARCHBAR DIV</p>
+			 <form action="./WP_searchPage.php" method="GET">
+                            <input type="text" name="game" value="Game"><br>
+                            <input type="submit">
+                          </form> 
 		</div>
 		<div id="MenuTabs">
 			<ul id="HeaderTabs">

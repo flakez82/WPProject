@@ -12,7 +12,7 @@
 	<div id="Header">
 		<img src="../images/GamerHQ_header.png" />
 		<div id="SearchBar">
-                         <form action="./WP_searchPage.php" method="POST">
+                         <form action="./WP_searchPage.php" method="GET">
                             <input type="text" name="game" value="Game"><br>
                             <input type="submit">
                           </form> 
@@ -31,8 +31,9 @@
 		</div>
 	</div>
 	<div id="Content">
-		<h1>Search Results for: </h1>
 		<?php 
+			$title = $_GET['game'];
+			echo "<h1>Search Results for: " . $title . "</h1>";
 		?>
 	</div>
 	<div id="Footer">
